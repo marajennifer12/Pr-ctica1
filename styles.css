@@ -3,6 +3,18 @@ h1 {
 }
 
 button {
-    color: yellow;
-    background-color: #D91512;
+    color: white;
+    background-color: green;
+}
+
+.header > * {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+li {
+    display: inline;
 }
