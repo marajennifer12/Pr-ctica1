@@ -7,12 +7,29 @@ button {
     background-color: green;
 }
 
-.header > * {
-    display: inline-block;
+.header{
     margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
+    font-size: 16px;
+}
 
+.header > * {
+    display: inline-block;
+    
+
+}
+
+.logo{
+    width: 11%;
+}
+
+.navbarr{
+    width: 70%;
+}
+
+.actions{
+    width: 15%;
 }
 
 li {
