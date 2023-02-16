@@ -11,25 +11,40 @@ button {
     margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 16px;
+
 }
 
 .header > * {
     display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
     
 
 }
 
+.actions *{
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
 .logo{
-    width: 11%;
+
+}
+
+.video {
+    align-items: center;
 }
 
 .navbarr{
-    width: 70%;
+    text-align: center;
+    color: black;
+    font-weight: 500;
 }
 
 .actions{
-    width: 15%;
+    color: black;
+    font-weight: 500;
+    text-align: left;
 }
 
 li {
