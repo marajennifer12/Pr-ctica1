@@ -1,3 +1,4 @@
+/*Las etiquetas se llaman con su mismo nombre y las clases se llaman con un . es decir .clase*/
 h1 {
     color: #D91512;
 }
@@ -56,5 +57,28 @@ li {
     width: 100%;
     margin-left: 100px;
     margin-right: 50px;
+    align-items: center;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(2, 300px); /* (2, 300px 300px) --> Agregar dos columnas de 300 pixeles  */
+    grid-template-rows: repeat(2, 330px);
+}
+
+article{
+    background-color: #dad72d;
+    margin: 10px;
+    width: 40px;
+    height: 50px;
+}
+
+.features.feature-card {
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: rgb(241, 141, 18);
+    border: 2px #12d9cf;
+    display: flex;
     align-items: center;
 }
