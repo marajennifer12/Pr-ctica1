@@ -63,8 +63,8 @@ li {
 .features {
     background-color: #ebbfe0a8;
     display: grid;
-    grid-template-columns: repeat(2, 700px); /* (2, 300px 300px) --> Agregar dos columnas de 300 pixeles  */
-    grid-template-rows: repeat(2, 600px);
+    grid-template-columns: repeat(2, 500px); /* (2, 300px 300px) --> Agregar dos columnas de 300 pixeles  */
+    grid-template-rows: repeat(2, 300px);
 }
 
 /*.article .feature-card{
@@ -86,7 +86,7 @@ li {
 }
 
 .features .feature-card .feature-content {
-    padding: 30 20 40 40;
+    padding: 40px 30px 40px 40px;
     flex: 2;
 }
 
@@ -100,7 +100,7 @@ li {
 }
 
 .features .feature-card .feature-content h2 {
-    font-size: 30px;
+    font-size: 20px;
     color: #d91297;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -108,6 +108,25 @@ li {
 .features .feature-card .feature-content p {
     font-size: 16px;
     color: #4e4e4e;
+}
+
+.features .feature-card .feature-content a {
+    font-size: 10px;
+    color: rgb(95, 18, 47);
+}
+
+.features .feature-card .feature-image img {
+    flex: 1;
+    width: 80%;
+    position: relative;
+    right: -30px;
+    height: 100%;
+}
+
+.features .feature-card .feature-image figure,
+.features .feature-card .feature-image img {
+    margin-top: 0;
+    height: 100%;
 }
 
 .Perfil {
@@ -128,4 +147,31 @@ article .Anuncio {
     /*display: grid;*/
     /*grid-template-columns: 200px;
     grid-template-rows: 200px;*/
+}
+
+@media (max-width: 575px) {
+
+body {
+    background-color: plum;
+}
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+  
 }
