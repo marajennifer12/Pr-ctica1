@@ -149,10 +149,26 @@ article .Anuncio {
     grid-template-rows: 200px;*/
 }
 
-@media (max-width: 575px) {
+/*-------------------------------------- Aquí empiezan los media querys --------------------------------------*/
 
-body {
-    background-color: plum;
+@media (max-width: 575px) {
+.navbarr, .actions {
+    display: none;
+}
+/*
+    background-color: plum;*/
+
+h1 {
+    font-size: 30px;
+}
+
+main {
+    margin-top: 130px;
+}
+
+/*Ajustar el formulario a una vista de celular*/
+.formu > input {
+    margin-top: 500px;
 }
 }
 
