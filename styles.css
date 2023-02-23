@@ -33,9 +33,9 @@ button {
 }
 
 .navbarr{
-    text-align: center;
+    /*text-align: center;
     color: black;
-    font-weight: 500;
+    font-weight: 500;*/
 }
 
 .actions{
@@ -66,19 +66,39 @@ li {
     grid-template-rows: repeat(2, 330px);
 }
 
-article{
-    background-color: #dad72d;
+.article .feature-card{
+    /*background-color: #2d30da;*/
     margin: 10px;
     width: 40px;
     height: 50px;
 }
 
-.features.feature-card {
+.features .feature-card {
     margin-bottom: 30px;
     margin-left: 15px;
     margin-right: 15px;
-    background-color: rgb(241, 141, 18);
-    border: 2px #12d9cf;
+    background-color: #c4b42b;
+    border: #D91512;
     display: flex;
     align-items: center;
+}
+
+.Perfil {
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.Promo {
+    margin-left: 20px;
+    margin-right: 0px;
+    display: flex;
+}
+
+article .Anuncio {
+    /*display: grid;*/
+    /*grid-template-columns: 200px;
+    grid-template-rows: 200px;*/
 }
