@@ -168,7 +168,9 @@ main {
 
 /*Ajustar el formulario a una vista de celular*/
 .formu > input {
-    margin-top: 500px;
+    margin-right: 30px;
+    margin-top: 10px;
+    width: 250px;
 }
 }
 
