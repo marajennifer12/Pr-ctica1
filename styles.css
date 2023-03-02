@@ -16,7 +16,7 @@ h4 {
 }
 
 h5 {
-    color: #827bdd;
+    color: #5a1f1f;
 }
 
 h6 {
@@ -81,6 +81,8 @@ li {
     margin-left: 100px;
     margin-right: 50px;
     align-items: center;
+    margin-bottom: 0px; /*Margen de la parte de abajo*/
+    margin-top: 30px; /*Margen de la parte de arriba*/
 }
 
 .features {
@@ -88,6 +90,7 @@ li {
     display: grid;
     grid-template-columns: repeat(2, 500px); /* (2, 300px 300px) --> Agregar dos columnas de 300 pixeles  */
     grid-template-rows: repeat(2, 300px);
+    padding: 15% 15%; /*padding para alinear elementos o grupos de elementos en la página*/
 }
 
 /*.article .feature-card{
@@ -105,7 +108,7 @@ li {
     border: 2px solid #221303f1;
     display: flex;
     align-items: center;
-    overflow: hidden;
+    overflow: hidden; /*overflow sirve para que no se desborde los elementos dentro de un contenedor*/
 }
 
 .features .feature-card .feature-content {
@@ -161,15 +164,36 @@ li {
 }
 
 .Promo {
-    margin-left: 20px;
-    margin-right: 0px;
     display: flex;
+    margin-left: 20px;
 }
 
-article .Anuncio {
-    /*display: grid;*/
-    /*grid-template-columns: 200px;
-    grid-template-rows: 200px;*/
+.Anuncio {
+    display: grid;
+    background-color: rgb(200, 160, 160);
+    width: 700px;
+    height: 550px;
+    margin-left: 30px;
+    overflow: hidden;
+}
+
+.Perfil .Anuncio .arreglo {
+    margin-left: 30px;
+}
+
+.Perfil .Anuncio .rosa {
+    margin-left: 235px;
+    margin-top: 30px;
+}
+
+.Perfil .Anuncio button {
+    margin-left: 20px;
+}
+.Perfil .Anuncio h4 {
+    margin-left: 20px;
+}
+.Perfil .Anuncio h5 {
+    margin-left: 20px;
 }
 
 /*-------------------------------------- Aquí empiezan los media querys --------------------------------------*/
@@ -185,9 +209,6 @@ h1 {
     font-size: 30px;
 }
 
-.features {
-
-}
 
 main {
     margin-top: 130px;
@@ -218,8 +239,7 @@ main {
 }
 
 /** dispositivos extra grandes (monitores grandes, tvs) */
-@media (min-width: 1200px) {
-  
+@media (min-width: 1200px) {
 }
 
 /*Examen Unidad 1 Fecha:27/2/2023*/
