@@ -221,6 +221,23 @@ main {
     width: 250px;
 }
 
+.publish > form {
+    flex-direction: column;
+    display: flex;
+}
+
+.publish > form > div {
+    height: 50px;
+    margin-top: 10px;
+}
+    .publish > form > div > input {
+        width: 65%;
+}
+
+.features {
+    grid-template: repeat(4,1fr)/1fr;
+}
+
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
