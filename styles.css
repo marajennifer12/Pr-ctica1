@@ -58,11 +58,11 @@ button {
 
 .navbarr{
     text-align: left;
-    color: black;
+    color: rgb(229, 210, 210);
 }
 
 .actions{
-    color: black;
+    color: rgb(229, 210, 210);
     font-weight: 500;
     text-align: left;
 }
