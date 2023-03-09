@@ -1,6 +1,6 @@
 /*Las etiquetas se llaman con su mismo nombre y las clases se llaman con un . es decir .clase*/
 h1 {
-    color: #D91512;
+    color: #552726;
 }
 
 h2 {
@@ -12,7 +12,7 @@ h3 {
 }
 
 h4 {
-    color: #444144;
+    color: #c5bec5;
 }
 
 h5 {
@@ -196,6 +196,11 @@ li {
     margin-left: 20px;
 }
 
+.titulocabecera {
+    text-align: center;
+    margin-top: 5%;
+}
+
 /*-------------------------------------- Aquí empiezan los media querys --------------------------------------*/
 
 @media (max-width: 575px) {
@@ -207,6 +212,7 @@ li {
 
 h1 {
     font-size: 30px;
+    text-align: center;
 }
 
 

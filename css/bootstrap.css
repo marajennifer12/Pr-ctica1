@@ -10834,4 +10834,11 @@ textarea.form-control-lg {
   }
 }
 
+.navbar .container-fluid .collapse .navbar-nav .nav-item{
+  font-size: 200%;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 3%;
+  color: #c5bec5;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
