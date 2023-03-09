@@ -6,26 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Práctica1</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css"> <!--Se llama a la hoja de estilos-->
+    <script src="js/bootstrap.bundle.min.js"></script>
     
 </head>
 <body> <!--Aquí va todo el código de lo que queramos poner, formularios, imágenes, vídeos, etc.-->
 
-    <nav class="navbar navbar-expand-sm bg-danger navbar-light">
-    <header class="header"> <!-- class="header" Invoca el nombre de la clase--> <!--Header es la barra de navegación-->
+    <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+    <header class="container-fluid"> <!-- class="header" Invoca el nombre de la clase--> <!--Header es la barra de navegación-->
         
         <!-- Logo con link a la página principal -->
         <a>
-        <img class="logo" src="img/fb.jpeg" height="50px" width="50px"/>
+        <img class="logo" src="img/fb.png" height="50px" width="50px"/>
         </a>
 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button> <!--Botón que hace el menú hamburguesa-->
+
+
         <!-- Menú de navegación -->
-        <div class="navbarr">
-            <ul> <!-- ul (Lista ordenada) es para poner lo que va contener nuestra lista -->
-                <li> Platform </li>
-                <li> Princing </li>
-                <li> Resources </li>
-                <li> About </li>
+        <div class="collapse navbar-collapse"  id="collapsibleNavbar">
+            <ul class="navbar-nav"> <!-- ul (Lista ordenada) es para poner lo que va contener nuestra lista -->
+                <li class="nav-item"> Platform </li>
+                <li class="nav-item"> Princing </li>
+                <li class="nav-item"> Resources </li>
+                <li class="nav-item"> About </li>
             </ul>
         </div>
         
@@ -196,7 +203,7 @@
     <!--Encuandres-->
 <div class="cuadros">
     <article class="enc">
-        <img class="logos" src="img/fb.jpeg" alt="">
+        <img class="logos" src="img/fb.png" alt="">
         <h2 class="titen">Facebook</h2>
         <p class="descripciones">Facebook es un servicio de redes y medios sociales en línea estadounidense.</p>
         <a class="sm" href="https://www.facebook.com/">Visita aquí</a>

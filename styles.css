@@ -199,9 +199,9 @@ li {
 /*-------------------------------------- Aquí empiezan los media querys --------------------------------------*/
 
 @media (max-width: 575px) {
-.navbarr, .actions {
+/*.navbarr, .actions {
     display: none;
-}
+}*/
 /*
     background-color: plum;*/
 
