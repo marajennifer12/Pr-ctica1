@@ -4,7 +4,9 @@ h1 {
 }
 
 h2 {
-    color: #7a7307;
+    color: #030518;
+    font-size: 190%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h3 {
@@ -199,6 +201,18 @@ li {
 .titulocabecera {
     text-align: center;
     margin-top: 5%;
+}
+
+.InvTitulo {
+    margin-top: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 500%;
+    color: #23165c;
+}
+
+.InvInputBoton {
+    margin-top: 2%;
+    margin-left: 40%;
 }
 
 /*-------------------------------------- Aquí empiezan los media querys --------------------------------------*/
