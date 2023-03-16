@@ -9,6 +9,26 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css"> <!--Se llama a la hoja de estilos-->
     <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+<script type="text/javascript">
+    function sendEmail() {
+        Email.send({
+                Host: "smtp.elasticemail.com",
+                Username: "lopezlemusmariajennifer@gmail.com",
+                Password: "1CA0BCBFE29C7D02AC74AA79F91FA28AC1DA",
+                To: 'lopezlemusmariajennifer@outlook.com',
+                From: "lopezlemusmariajennifer@gmail.com",
+                Subject: "Te amo mi Ian",
+                Body: "Te dedico una canción uwu",
+            })
+            .then(function (message) {
+                alert("mail sent successfully")
+            });
+    }
+    </script>
     
 </head>
 <body> <!--Aquí va todo el código de lo que queramos poner, formularios, imágenes, vídeos, etc.-->
@@ -98,10 +118,10 @@
 
     <h2 class="text-center">Instanly publish articles, drive more traffic, grow your email list, and see your blogs impact on sales.</h2>
 
-    <div class="input-group mb-3 InvInputBoton">
+    <form class="input-group mb-3 InvInputBoton" method="post">
         <input type="text" class="" placeholder="Enter email adress">
-        <button class="btn btn-dark" type="submit">Try it now -></button>
-      </div>
+        <button class="btn btn-dark" type="button" value="Send Email" onclick="sendEmail()">Try it now -></button> <!-- Se utiliza para el envío de un email-->
+    </form>
 
       <p class="text-center">Start publishing today with a free 7-day trial. <br>
                             No credit card required.

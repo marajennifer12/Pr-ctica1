@@ -5,9 +5,15 @@
 
 .invitaitesp {
     display: flex;
+    margin-left: 30%;
+    margin-top: 5%;
 }
 
 .tituloITESP {
     margin-top: 5%;
-    font-size: 500%;
+    font-size: 300%;
+}
+
+.trescolum {
+    margin-top: 2%;
 }
