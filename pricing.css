@@ -1,19 +1,27 @@
 .corto {
-    margin-top: 1%;
+    margin-top: 3%;
     margin-left: 18%;
 }
 
 .invitaitesp {
     display: flex;
     margin-left: 30%;
-    margin-top: 5%;
+    margin-top: 7%;
+}
+
+.ITESP {
+    margin-right: 2%;
 }
 
 .tituloITESP {
-    margin-top: 5%;
+    margin-top: 40%;
     font-size: 300%;
 }
 
 .trescolum {
     margin-top: 2%;
+}
+
+.Infoveterinaria {
+    text-align: justify;
 }
