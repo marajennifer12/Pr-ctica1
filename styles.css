@@ -73,6 +73,10 @@ li {
     display: inline;
 }
 
+.navtext {
+    color: white;
+}
+
 .publish h3{
     color: #D1379E;
 }
@@ -200,7 +204,7 @@ li {
 
 .titulocabecera {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 6%;
 }
 
 .InvTitulo {
