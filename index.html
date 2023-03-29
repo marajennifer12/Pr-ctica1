@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css"> <!--Se llama a la hoja de estilos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/bootstrap.bundle.min.js"></script>
 
     <script src="https://smtpjs.com/v3/smtp.js">
@@ -29,6 +30,13 @@
             });
     }
     </script>
+
+<!--Para el botón de like y dislike-->
+<script>
+    function myFunction(x) {
+      x.classList.toggle("fa-thumbs-down");
+    }
+    </script>
     
 </head>
 <body> <!--Aquí va todo el código de lo que queramos poner, formularios, imágenes, vídeos, etc.-->
@@ -308,6 +316,16 @@
 </section>
 
 <!--Menú de hamburgesa-->
+
+
+
+
+
+<p>¿Te gustó esta página de publicidad? (like/dislike):</p>
+
+<i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+
 
 </body>
 </html>

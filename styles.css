@@ -25,9 +25,6 @@ h6 {
     color: #d84545;
 }
 
-.envinf {
-}
-
 button {
     color: white;
     background-color: green;
@@ -222,6 +219,16 @@ li {
     margin-top: 2%;
     margin-left: 40%;
 }
+
+.fa {
+    font-size: 50px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .fa:hover {
+    color: rgb(228, 57, 213);
+  }
 
 /*-------------------------------------- Aquí empiezan los media querys --------------------------------------*/
 
